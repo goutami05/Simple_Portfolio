@@ -49,7 +49,7 @@ body {
     z-index: 1;
     background-color: #956cefde;
     border-radius: 8px;
-    box-shadow: 10px 10px 10px #9684bdfa;
+    box-shadow: 10px 10px 10px #9873e7fa;
 }
 
 #right {
@@ -62,4 +62,43 @@ body {
     z-index: 3;
     width: 450px;
     height: 700px;
+}
+
+#box1 h3 {
+    position: absolute;
+    font-size: 50px;
+    top: 40%;
+    left: 6%;
+}
+
+#box1 p {
+    position: absolute;
+    width: 40%;
+    top: 53%;
+    left: 6%;
+
+}
+
+#box1 button {
+    position: absolute;
+    background-color: rgb(78, 8, 140);
+    color: #d5b7ea;
+    border: 2px solid white;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    top: 85%;
+    left: 6%;
+}
+
+#box1 button:hover {
+    background-color: #8a2be2;
+    color: white;
+    border-color: #eee;
+    box-shadow: 15px 15px 20px rgb(78, 8, 140);
+
 }
